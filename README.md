@@ -39,11 +39,11 @@ git clone https://github.com/lafourb/hl-aliases-extension.git
 4. Browse any web3 site to see addresses replaced with aliases
 
 ### Supported Websites
-The extension has been tested and works on the following websites:
 
-Hypurr Pump - Pump monitoring website
-Dexscreener - Real-time DEX trading charts and data
-Hyperliquid Leaderboard - Official Hyperliquid leaderboard
+The extension has been tested and works on the following websites:
+- [Hypurr Pump](https://app.hypurr.fun/launch) - Pump monitoring website
+- [Dexscreener](https://dexscreener.com) - Real-time DEX trading charts and data
+- [Hyperliquid Leaderboard](https://app.hyperliquid.xyz/leaderboard) - Official Hyperliquid leaderboard
 
 ### Importing Aliases
 
