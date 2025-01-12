@@ -1,0 +1,35 @@
+{
+  "manifest_version": 3,
+  "name": "ETH Address Aliaser",
+  "version": "1.0",
+  "description": "Replace Ethereum addresses with aliases and adds Hypurrscan lookup",
+  "permissions": [
+    "storage", 
+    "activeTab",
+    "contextMenus",
+    "scripting"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "commands": {
+    "open-hypurrscan": {
+      "suggested_key": {
+        "default": "Alt+H"
+      },
+      "description": "Lookup address on Hypurrscan"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
